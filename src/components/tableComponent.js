@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { Button } from "reactstrap";
 import "../css/table.css";
 
 class Table extends Component {
@@ -19,9 +18,9 @@ class Table extends Component {
     return (
       <React.Fragment>
         <div>
-          <Button onClick={this.booked.bind(this)} className={booked}>
+          <button onClick={this.booked.bind(this)} className={booked}>
             1
-          </Button>{" "}
+          </button>
           {/*{this.props.TableNo}*/}
         </div>
       </React.Fragment>
